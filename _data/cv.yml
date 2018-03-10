@@ -1,0 +1,20 @@
+- name: Programing languages
+  list:
+      - C
+      - Java
+      - C#
+      - Assembler
+
+- name: Technologies
+  list:
+      - Unity
+      - PostgreSQL
+      - MySQL
+
+- name: Other languages and technologies I have worked with
+  list:
+      - C++, javaScript, perl, template toolkit, Jekyll, Markdown, HTML, CSS, XML, UML, BPML
+
+- name: Other languages and technologies I can work with
+  list:
+      - anything with a documentation

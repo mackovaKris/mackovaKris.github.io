@@ -1,0 +1,24 @@
+{% if page.enable_pinned-panel %}
+{% if site.reading or site.listening or site.playing%}
+<div class=pinned-panel>
+    <p>
+    Currently...
+    </p>
+    {% if site.reading %}
+    <p>
+        <img src="/assets/open-book.png"> {{ site.reading }}
+    </p>
+    {% endif %}
+    {% if site.reading %}
+    <p>
+        <img src="/assets/headphones.png"> {{ site.listening }}
+    </p>
+    {% endif %}
+    {% if site.reading %}
+    <p>
+        <img src="/assets/video-game.png"> {{ site.playing }}
+    </p>
+    {% endif %}
+</div>
+{% endif %}
+{% endif %}

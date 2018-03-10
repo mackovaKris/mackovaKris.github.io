@@ -1,0 +1,35 @@
+---
+layout: page
+---
+<article class="post">
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    {% if site.posts.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+        {% assign updates = site.posts | where:"topic",page.topic |  sort: 'date' |  sort: 'importance' %}
+        {% for post in updates %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+            {% if site.show_excerpts %}
+            {{ post.excerpt }}
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+    {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+    {% endif %}
+</article>

@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: presentation_page
 title: SBURB Tactics
 permalink: /projects/sburbtactics/
 
 category: Projects
 category_navigation_order: 1
+topic: SBURB Tactics
+
+list_title: Updates
 ---
 ![SBURB Tactics](/assets/ST_splash.PNG)
 

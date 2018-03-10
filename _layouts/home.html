@@ -10,11 +10,12 @@ layout: default
   {{ content }}
 
 {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Updates" }}</h2>
     <ul class="post-list">
       {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+        <p class="post-meta">from: {{ post.topic }}</p>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
