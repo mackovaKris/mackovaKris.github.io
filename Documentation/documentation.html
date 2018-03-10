@@ -1,0 +1,22 @@
+---
+layout: category
+title: Documentation
+permalink: /documentation/
+main_navigation_order: 1
+---
+    <nav>
+        <div class="trigger">
+            <ul>
+                {% assign categories = site.pages |  sort: 'category_navigation_order' %}
+                {% for cat in categories %}
+                    {% if cat.category == 'Documentation' %}
+                    <h3>
+                    <a class="page-link" href="{{cat.url | relative_url}}">
+                        {{cat.title | escape}}
+                    </a>
+                        </h3>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>

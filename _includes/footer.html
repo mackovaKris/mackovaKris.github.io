@@ -1,0 +1,42 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {% include social.html %}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <div>Website made with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
+          and <a href="https://pages.github.com" rel="nofollow">GitHub Pages</a>. Style based on
+          <a href="https://github.com/jekyll/minima" rel="nofollow">Minima</a> &amp;
+          <a href="https://mmistakes.github.io/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+        <p>{{ site.description | escape }}</p>
+        <div class="site-footer-copyright">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>
+          from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
