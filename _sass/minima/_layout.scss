@@ -28,7 +28,7 @@
 .pinned-panel {
   font-size: 13.5px;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 15%;
   margin-top: -2.5em;
   padding: 5px;
@@ -41,7 +41,7 @@
     opacity: 0.7;
   }
 
-  .nav-trigger {
+  @include media-query($on-palm) {
     display: none;
   }
 }

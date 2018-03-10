@@ -23,7 +23,8 @@ twitter_username:
 github_username:  mackovaKris
 disqus:
   shortname: mackovaKris
-#google_analytics: ANALYTICS_ID
+
+google_analytics: UA-115508826-1
 
 reading: Ancillary Sword by A.Leckie
 listening: My Brother, My Brother and Me
@@ -35,7 +36,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-mentions
   - jemoji
 
