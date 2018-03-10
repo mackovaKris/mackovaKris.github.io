@@ -17,9 +17,12 @@ title: Title
 email: mackovakris@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mackovakris.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  mackovaKris
+disqus:
+  shortname: mackovaKris
+#google_analytics: ANALYTICS_ID
 
 # Build settings
 markdown: kramdown
@@ -27,6 +30,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
 
 liquid:
   error_mode: strict
