@@ -12,6 +12,7 @@ Predmetom 2. zadania je spracovanie vybraného dokumentu z pôvodného ľubovoľ
 Požadované a kontrolné konštrukcie sú:
 
 * štandardné členenie textu na kapitola, podkapitola, podpodkapitola, príloha, generovaný obsah,
+
 V rámci šablon musí byť použité:
 * zvýraznenie slov, zvýraznenie členenia textu odrážkami alebo číslovaním,
 * odkazy na iné časti vlastného dokumentu, prípadne odkazy na URL,
@@ -30,20 +31,20 @@ Výstupom práce na druhom zadaní sú upravené šablóny thesis.xsl, thesis-tp
 * odkazy na iné časti textu pomocou ```xref``` a atribútom ```linkend```
 * poznámky pod čiarov sú prvky ```footnote``` s prvkom ```ulink``` na url odkazy
 * citácie sú tvorené ako ```xref``` odkazy na zaznamy v bibliografií
-	* bibliografia je obalena tagom ```bibliography```
+	* bibliografia je obalená tagom ```bibliography```
 	* jednotlivé záznamy sú ```biblioentry```
-	* väčšina záznamov sú ```biblioset```y (article a journal), s:
+	* väčšina záznamov sú ```biblioset```y (article a journal), obsahujúce:
 		* ```title```
 		* ```authorgroup``` a ```author```
 		* ```copyright```
 		* ```pagenums```
 		* ```publisher```
 * obrázky sú ```figure``` s ```title```, ```titleabbrev``` na odkazovanie v texte, ```mediaobject```, ```imageobject``` a ```imagedata```,
-* tabulka table s tgroup, colspec, thead, tbody, row a entries
+* tabulka ```table``` s ```tgroup```, ```colspec```, ```thead```, ```tbody```, ```row``` a ```entry```,
 * register je generovaný tagom ```index```, pojmy v indexe sú vytvorené tagmi ```indexterm```, ```primary```, ```secondary``` a ```tertiary```,
 
 ### Zmeny v šablóne	###
-*mojabp.xml
+* mojabp.xml
 	* zmena jazyku z ```cs``` na ```sk```
 	* odstránenie nepodporovaných znakov
 * thesis.xsl
