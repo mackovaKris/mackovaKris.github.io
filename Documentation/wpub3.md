@@ -98,9 +98,6 @@ PDF:
 	<xsl:param name="slide.width" select="'210mm'"/>
 	<xsl:param name="slide.height" select="'140mm'"/>
 
-	<xsl:param name="label-end" select="'15mm'"/>
-	<xsl:param name="body-start" select="'3mm'"/>
-
 	<xsl:param name="text.size" select="'12pt'"/>
 	<xsl:param name="title.size" select="'28pt'"/>
 
@@ -587,7 +584,7 @@ Formátovanie odkazov v zozname odkazov.
 V PDF verzií mám iba nečíslované zoznamy - dovoľujú vnáranie
 
     <xsl:template match="//ordered-list">
-		<fo:list-block>
+		<fo:list-block padding-top="5pt">
 		    <xsl:for-each select="child::*">
 				<xsl:choose>
 			        <xsl:when test="name() = 'item'">
@@ -595,10 +592,10 @@ V PDF verzií mám iba nečíslované zoznamy - dovoľujú vnáranie
 			        </xsl:when>
 			        <xsl:otherwise>
 						<fo:list-item>
-						 <fo:list-item-label end-indent="{$label-end}">
+						 <fo:list-item-label end-indent="label-end()" text-align="end">
 						   <fo:block>*</fo:block>
 						 </fo:list-item-label>
-						 <fo:list-item-body start-indent="{$body-start}">
+						 <fo:list-item-body start-indent="body-start()" text-indent="0">
 						   <xsl:apply-templates select="."/>
 						 </fo:list-item-body>
 						</fo:list-item>	          
@@ -608,7 +605,7 @@ V PDF verzií mám iba nečíslované zoznamy - dovoľujú vnáranie
 		</fo:list-block>
     </xsl:template>
     <xsl:template match="//unordered-list">
-		<fo:list-block>
+		<fo:list-block padding-top="5pt">
 		    <xsl:for-each select="child::*">
 				<xsl:choose>
 			        <xsl:when test="name() = 'item'">
@@ -616,10 +613,10 @@ V PDF verzií mám iba nečíslované zoznamy - dovoľujú vnáranie
 			        </xsl:when>
 			        <xsl:otherwise>
 						<fo:list-item>
-						 <fo:list-item-label end-indent="{$label-end}">
+						 <fo:list-item-label end-indent="label-end()" text-align="end">
 						   <fo:block>*</fo:block>
 						 </fo:list-item-label>
-						 <fo:list-item-body start-indent="{$body-start}">
+						 <fo:list-item-body start-indent="body-start()" text-indent="0">
 						   <xsl:apply-templates select="."/>
 						 </fo:list-item-body>
 						</fo:list-item>	          
@@ -629,21 +626,25 @@ V PDF verzií mám iba nečíslované zoznamy - dovoľujú vnáranie
 		</fo:list-block>
     </xsl:template>
 
-Položka zoznamu - s parametrami odsadenia
+Položka zoznamu
 
-    	<xsl:template match="//item">
-		<fo:list-item>
-		 <fo:list-item-label end-indent="{$label-end}">
+	<xsl:template match="//item">
+		<fo:list-item padding-top="2pt">
+		 <fo:list-item-label end-indent="label-end()">
 		   <fo:block>*</fo:block>
 		 </fo:list-item-label>
-		 <fo:list-item-body start-indent="{$body-start}">
+		 <fo:list-item-body start-indent="body-start()">
 		   <fo:block><xsl:value-of select="text()"/></fo:block>
 		 </fo:list-item-body>
 		</fo:list-item>
+    </xsl:template>     
+
+Formátovanie obrázku - so zadanou pozíciou a v texte
+
+    <xsl:template match="//image[@position]">	
+		<fo:external-graphic src="url('{@src}')" content-width="{@width div 5}mm" content-height="{@height div 5}mm"/>    	
     </xsl:template>    
 
-Formátovanie obrázku
-
-    <xsl:template match="//image">	
-		<fo:external-graphic src="url('{@src}')"  content-height="40%"/>    	
-    </xsl:template> 
+    <xsl:template match="//image[not(@position)]">
+		<fo:external-graphic src="url('{@src}')" content-width="{@width div 5}mm" content-height="{@height div 5}mm" left="{@x}mm" bottom="{@y}mm" position="relative"/>        		
+    </xsl:template>   
