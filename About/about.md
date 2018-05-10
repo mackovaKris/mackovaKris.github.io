@@ -5,13 +5,12 @@ permalink: /about/
 main_navigation_order: 0 
 ---
 
-### Short bio: ###
-Hello, my name is Kristina. I am studying Computer Science in [FIIT STU](https://www.fiit.stuba.sk) in Bratislava.
-I have experience in web development, and I have an avid interest in video games, both playing them but also making them.
+### Short about: ###
 
-I have an aspiration in video game design and development, and I do have some [projects](/projects) that I am working on.
+I am student of [Faculty of Informatics and Information Technologies at the Slovak University of Technology in Bratislava](https://www.fiit.stuba.sk). 
 
-My other interests include appreciating the fine arts of cinema and literature, especially those
-of the sci-fi and fantasy genre, and manual crafts, such as sewing.
+I have an aspiration in video game design and development, you can go see my [projects](/projects) that I've worked on.
 
-### CV information: ###
+My other interests include films and books, especially those of the sci-fi and fantasy genre, and creative work, such as manual crafts.
+
+### CV: ###
