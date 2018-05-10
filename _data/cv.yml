@@ -10,10 +10,11 @@
       - Unity
       - PostgreSQL
       - MySQL
+      - git
 
 - name: Other languages and technologies I have worked with
   list:
-      - C++, javaScript, perl, template toolkit, Jekyll, Markdown, HTML, CSS, XML, UML, BPML
+      - C++, javaScript, perl, template toolkit, Jekyll, Markdown, HTML, CSS, XML, XSL, UML, BPML
 
 - name: Other languages and technologies I can work with
   list:
