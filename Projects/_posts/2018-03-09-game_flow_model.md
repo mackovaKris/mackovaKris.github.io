@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Battle gameplay design"
+title: "Battle state machine"
 date: 2018-03-09
 
 importance: 100
