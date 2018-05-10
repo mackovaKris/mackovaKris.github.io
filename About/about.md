@@ -16,27 +16,26 @@ My other interests include films and books, especially those of the sci-fi and f
 ### CV: ###
 * Education
   * 2015 - CURRENT
-    Slovak University of Technology in Bratislava
-    Faculty of Informatics and Information Technologies
-    Degree course: Informatics
+    Slovak University of Technology in Bratislava <br />
+    Faculty of Informatics and Information Technologies <br />
+    Degree course: Informatics <br />
   * 2011-2015 Grammar School of Albert Einstein
     Einsteinova 35, Bratislava
 
 * Work experience
-  * July 2016 - August 2016
-    [Comsultia, s.r.o.](https://comsultia.com)
+  * July 2016 - August 2016 <br />
+    [Comsultia, s.r.o.](https://comsultia.com) <br />
     Web developer
-    
-  * July 2017 - August 2017
-    [Comsultia, s.r.o.](https://comsultia.com)
+  * July 2017 - August 2017 <br />
+    [Comsultia, s.r.o.](https://comsultia.com) <br />
     Web developer    
 
 * My projects
-  * Bachelor thesis
+  * Bachelor thesis <br />
     Software development and virtual reality
   * Network trafic analyzer (C)
   * Server/Client MVC Spring web application (Java)
-  * Projects focused on data structures:
+  * Projects focused on data structures: <br />
     AVL trees, hash tables, binary heap (C) 
 
 * Languages
