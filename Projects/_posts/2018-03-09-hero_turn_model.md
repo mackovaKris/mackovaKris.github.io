@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hero turn design"
+title: "Hero turn state machine"
 date: 2018-03-09
 
 importance: 100
