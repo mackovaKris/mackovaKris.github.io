@@ -1,0 +1,9 @@
+- name: ObjectScape
+  description: VR Escape Room educational game, that aims to teach players the principles of object oriented programing. Made with Unity for HTC Vive.
+  link: /projects/objectscape/
+  image: /assets/objectscape.png
+
+- name: Space Impact
+  description: A 3D Space Impact clone, made from scratch in C++ with OpenGL.
+  link: not
+  image: /assets/space_impact.gif

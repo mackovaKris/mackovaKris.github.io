@@ -2,25 +2,91 @@
 layout: default
 ---
 <article class="post">
-
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+    <header>
+        <div class="p-header">
+            <ul id="menu" class="p-shadow">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>  
     </header>
 
-    <div class="post-content">
-        {{ content }}
+
+    <div class="post-content" id="about">
+        <h4 class="p-shadow heading">Short bio</h4>
+        <div class="about">
+            {{ content }}            
+        </div>   
+    </div>
+
+    <div class="post-content" id="experience">
+    <h4 class="p-shadow heading">Experience</h4>   
+    {% for section in site.data.experience %}
+            <div class="experience-block">
+                <h3>{{ section.name }}</h3>   
+                {% for el in section.list %}
+                    <p>{{ el }}</p>
+                {% endfor %}
+            </div>
+    {% endfor %}
+    </div>
+
+    <div class="post-content" id="education">
+    <h4 class="p-shadow heading">Education</h4>   
+    {% for section in site.data.education %}
+            <div class="education-block">
+                <h3>{{ section.name }}</h3>   
+                {% for el in section.list %}
+                    <p>{{ el }}</p>
+                {% endfor %}
+            </div>
+    {% endfor %}
     </div>
 
     <div class="post-content">
-    {% for section in site.data.cv %}
-    <h4>{{ section.name }}</h4>
+    <h4 class="p-shadow heading">My projects</h4>   
+    {% for section in site.data.projects %}
+            <div class="project shadow-large" id="projects">
+                <div class="project-image">
+                    <img src="{{ section.image }}"/>
+                </div>
+                <div class="project-info">
+                    <h3>{{ section.name }}</h3>   
+                    <p>{{ section.description }}</p>
+                    
+                    {% if section.link != "not" %}
+                    <a href="{{ section.link }}">View project</a>      
+                    {% endif %}              
+                </div>
+            </div>
+    {% endfor %}
+    </div>    
+
+    <div class="post-content" id="skills">
+    {% for section in site.data.skills %}
+    <h4 class="p-shadow heading">{{ section.name }}</h4>
+    <div class="skills">
         <ul>
             {% for el in section.list %}
             <li>
-                <p>{{ el }}</p>
+                {{ el }}
             </li>
             {% endfor %}
         </ul>
+    </div>
     {% endfor %}
     </div>
 
