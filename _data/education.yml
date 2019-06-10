@@ -1,16 +1,21 @@
-- name: 2015 - Current
+- name: 2018 - Current
   list:
-      - Slovak University of Technology in Bratislava 
-      - Faculty of Informatics and Information Technologies
-      - "Degree course: Informatics"
+    - "<a href='https://www.fiit.stuba.sk'>Slovak University of Technology in Bratislava</a>"
+    - Faculty of Informatics and Information Technologies
+    - "Master's Degree course: Intelligent Software Systems"
+
+- name: 2015 - 2018
+  list:
+    - "<a href='https://www.fiit.stuba.sk'>Slovak University of Technology in Bratislava</a>"
+    - Faculty of Informatics and Information Technologies
+    - "<em>Graduated Cum Laude</em> - Bachelor's degree course: Informatics"
 
 - name: 2017 - 2018
   list:
-      - Complete C# Unity Developer 2D - Learn to Code Making Games
-      - Udemy online course
+    - Complete C# Unity Developer 2D - Learn to Code Making Games
+    - Udemy online course
 
 - name: 2011-2015
   list:
-      - Grammar School of Albert Einstein
-      - Einsteinova 35, Bratislava
-
+    - Grammar School of Albert Einstein
+    - Einsteinova 35, Bratislava

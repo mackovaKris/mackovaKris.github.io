@@ -11,6 +11,8 @@
       - PostgreSQL
       - MySQL
       - git
+      - React
+      - VRTK
 
 - name: Other languages and technologies I have worked with
   list:
@@ -24,7 +26,8 @@
       - CSS 
       - XML 
       - XSL 
-      - UML 
+      - UML
+      - LaTeX
       - BPML
 
 - name: Other languages and technologies I can work with
@@ -34,4 +37,5 @@
 - name: Languages
   list:
       - English
-      - Russian
+      - Slovak
+      - Russian - beginner

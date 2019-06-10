@@ -1,5 +1,6 @@
 - name: ObjectScape
   description: VR Escape Room educational game, that aims to teach players the principles of object oriented programing. Made with Unity for HTC Vive.
+  link_text: See project
   link: /projects/objectscape/
   image: /assets/objectscape.png
 
@@ -7,3 +8,9 @@
   description: A 3D Space Impact clone, made from scratch in C++ with OpenGL.
   link: not
   image: /assets/space_impact.gif
+
+- name: MOTH
+  description: Survival-horror game inspired by Slender, hunt Mothman in a spooky forest. Made with Unity.
+  link: https://mackovakris.itch.io/moth
+  link_text: Download and play
+  image: /assets/Mothman.PNG

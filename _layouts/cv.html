@@ -15,6 +15,9 @@ layout: default
                     <a href="#education">Education</a>
                 </li>
                 <li>
+                    <a href="#other">Other experiences</a>
+                </li>
+                <li>
                     <a href="#projects">Projects</a>
                 </li>
                 <li>
@@ -56,6 +59,18 @@ layout: default
     {% endfor %}
     </div>
 
+    <div class="post-content" id="other">
+        <h4 class="p-shadow heading">Other experiences</h4>
+        {% for section in site.data.other %}
+        <div class="education-block">
+            <h3>{{ section.name }}</h3>
+            {% for el in section.list %}
+            <p>{{ el }}</p>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
     <div class="post-content">
     <h4 class="p-shadow heading">My projects</h4>   
     {% for section in site.data.projects %}
@@ -68,7 +83,7 @@ layout: default
                     <p>{{ section.description }}</p>
                     
                     {% if section.link != "not" %}
-                    <a href="{{ section.link }}">View project</a>      
+                    <a href="{{ section.link }}">{{ section.link_text}}</a>
                     {% endif %}              
                 </div>
             </div>
