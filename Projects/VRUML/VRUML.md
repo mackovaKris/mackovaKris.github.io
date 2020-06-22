@@ -7,7 +7,7 @@ category: Projects
 category_navigation_order: 2
 ---
 
-<iframe width="560" height="315" src="https://youtu.be/gw3hatmvJvc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gw3hatmvJvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Masters thesis: Application of natural interaction methods for virtual reality, within the context of UML modeling ###
 In software development, UML diagrams are often used to communicate abstract
