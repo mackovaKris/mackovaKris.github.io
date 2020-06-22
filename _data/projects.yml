@@ -1,3 +1,21 @@
+- name: VRUML
+  description: 3D UML modelling environment prototype for natural user interface evaluation. Supports three types of text input, and two types of interaction.  Made with Unity for HTC Vive, Samsung Oddysey, Leap Motion.
+  link_text: See project
+  link: /projects/vruml/
+  image: /assets/vrKeys-demo.gif
+
+- name: C++ Raytracer
+  description: Simple raytracing graphics project, made with C++ and HIRO library, with heavy test coverage. Repository available on request.
+  link_text: See project
+  link: /projects/raytracer/
+  image: /assets/scene8.PNG
+
+- name: MOTH
+  description: Survival-horror game inspired by Slender, hunt Mothman in a spooky forest. Made with Unity.
+  link: https://mackovakris.itch.io/moth
+  link_text: Download and play
+  image: /assets/Mothman.PNG
+
 - name: ObjectScape
   description: VR Escape Room educational game, that aims to teach players the principles of object oriented programing. Made with Unity for HTC Vive.
   link_text: See project
@@ -8,9 +26,3 @@
   description: A 3D Space Impact clone, made from scratch in C++ with OpenGL.
   link: not
   image: /assets/space_impact.gif
-
-- name: MOTH
-  description: Survival-horror game inspired by Slender, hunt Mothman in a spooky forest. Made with Unity.
-  link: https://mackovakris.itch.io/moth
-  link_text: Download and play
-  image: /assets/Mothman.PNG

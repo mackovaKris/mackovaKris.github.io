@@ -1,9 +1,9 @@
 - name: Programing languages
   list:
-      - C
-      - Java
       - C#
-      - Assembler
+      - Java
+      - C
+      - R
 
 - name: Technologies
   list:
@@ -13,6 +13,12 @@
       - git
       - React
       - VRTK
+      - .Net Framework
+      - Entity Framework
+      - ASP.Net Core
+      - Jira
+      - Microsoft Teams
+
 
 - name: Other languages and technologies I have worked with
   list:
@@ -22,13 +28,15 @@
       - Template toolkit
       - Jekyll 
       - Markdown
-      - HTML 
+      - HTML
+      - HTML5
       - CSS 
       - XML 
       - XSL 
       - UML
       - LaTeX
       - BPML
+      - Assembler
 
 - name: Other languages and technologies I can work with
   list:
@@ -38,4 +46,5 @@
   list:
       - English
       - Slovak
+      - Czech
       - Russian - beginner

@@ -14,6 +14,6 @@ Cryptid hunt! Survive an encounter with the famous Mothman and bring home a phot
 
 Inspired by Slender.
 
-Game created as a semestral project for Game Development course at Faculty of Informatics and Information Technologies of Slovak University of Technology in Bratislava.
+Game created as a semester project for Game Development course at Faculty of Informatics and Information Technologies of Slovak University of Technology in Bratislava.
 
 Made with Unity.
