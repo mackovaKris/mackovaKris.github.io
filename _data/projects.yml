@@ -1,5 +1,5 @@
 - name: Popolvar - Shortest graph traversal
-  description: Dijkstra shortest route search algorithm implementation. Repository available on request.
+  description: Dijkstra shortest route search algorithm implementation. Made with React, typeScript. Repository available on request.
   link_text: See project
   link: /projects/popolvar/
   image: /assets/popolvar/popolvar.png
