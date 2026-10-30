@@ -1,32 +1,40 @@
 - name: Programing languages
   list:
       - C#
-      - Java
       - C
+      - Python
       - R
 
 - name: Technologies
   list:
-      - Unity
+      - Kubernetes
+      - DevOps
+      - Cosmos
       - PostgreSQL
       - MySQL
+      - Kafka
+      - Docker
       - git
+      - ClaudeCode, Copilot
       - React
       - VRTK
+      - Unity
       - .Net Framework
       - Entity Framework
       - ASP.Net Core
       - Jira
-      - Microsoft Teams
 
 
 - name: Other languages and technologies I have worked with
   list:
       - C++
+      - Java
       - javaScript
+      - typeScript
       - perl
       - Template toolkit
       - Jekyll 
+      - openAPI
       - Markdown
       - HTML
       - HTML5

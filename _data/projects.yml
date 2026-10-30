@@ -1,3 +1,9 @@
+- name: Popolvar - Shortest graph traversal
+  description: Dijkstra shortest route search algorithm implementation. Repository available on request.
+  link_text: See project
+  link: /projects/popolvar/
+  image: /assets/popolvar/popolvar.png
+
 - name: VRUML
   description: 3D UML modelling environment prototype for natural user interface evaluation. Supports three types of text input, and two types of interaction.  Made with Unity for HTC Vive, Samsung Oddysey, Leap Motion.
   link_text: See project
