@@ -26,10 +26,6 @@ disqus:
 
 google_analytics: UA-115508826-1
 
-reading: Ancillary Sword by A.Leckie
-listening: My Brother, My Brother and Me
-playing: FTL Faster Than Light
-
 # Build settings
 markdown: kramdown
 theme: minima
