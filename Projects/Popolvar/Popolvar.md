@@ -12,6 +12,8 @@ Help Popolvar save the princess! Set the size of the map, click any tile to chan
 
 The infamous algorithms and data structures assignment from FIIT. Dijkstra shortest route search algorithm implementation.
 
+Made with React, typeScript.
+
 <popolvar-map></popolvar-map>
 <script type="module" src="{{ '/assets/popolvar/popolvar.js' | relative_url }}?v={{ page.popolvar_version }}"></script>
 
